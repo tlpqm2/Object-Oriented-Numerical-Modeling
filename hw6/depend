@@ -1,0 +1,7 @@
+driver.o: driver.cpp Vector.h Vector.hpp AMatrix.h Dense_Matrix.h \
+  Dense_Matrix.hpp Tridiagonal_Matrix.h Tridiagonal_Matrix.hpp \
+  Diagonal_Matrix.h Diagonal_Matrix.hpp LowerTriangular_Matrix.h \
+  LowerTriangular_Matrix.hpp UpperTriangular_Matrix.h \
+  UpperTriangular_Matrix.hpp SymmetricDense_Matrix.h \
+  SymmetricDense_Matrix.hpp Dense_Gauss.h Dense_Gauss.hpp \
+  Tridiagonal_Gauss.h Tridiagonal_Gauss.hpp QRdecomp.h QRdecomp.hpp
